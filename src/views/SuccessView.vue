@@ -52,8 +52,5 @@
 <script>
 export default {
     name: "SuccessView",
-    methods: {
-
-    }
 };
 </script>
