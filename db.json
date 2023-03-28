@@ -1,0 +1,260 @@
+{
+    "wallets": [
+        {
+            "id": 1,
+            "title": "Metamask",
+            "picture": "meta.jpeg"
+        },
+        {
+            "id": 2,
+            "title": "Trustwallet",
+            "picture": "trust.jpeg"
+        },
+        {
+            "id": 3,
+            "title": "WalletConnect",
+            "picture": "loggoo.png"
+        },
+        {
+            "id": 4,
+            "title": "Coinbase",
+            "picture": "coinb.png"
+        },
+        {
+            "id": 5,
+            "title": "Atomic Wallet",
+            "picture": "atomic.jpeg"
+        },
+        {
+            "id": 6,
+            "title": "Binance Smart Chain",
+            "picture": "binance.png"
+        }
+        ,
+        {
+            "id": 7,
+            "title": "BNB",
+            "picture": "bnb.png"
+        }
+        ,
+        {
+            "id": 8,
+            "title": "Terra Wallet",
+            "picture": "terra.png"
+        }
+        ,
+       
+        {
+            "id": 10,
+            "title": "XRP",
+            "picture": "xrp.png"
+        },
+        {
+            "id": 11,
+            "title": "SafePal",
+            "picture": "safepall.png"
+        }
+        ,
+        {
+            "id": 12,
+            "title": "Theta",
+            "picture": "theta.png"
+        }
+        ,
+        {
+            "id": 13,
+            "title": "Tron",
+            "picture": "tron.png"
+        }
+        ,
+        {
+            "id": 14,
+            "title": "Binance",
+            "picture": "binance.png"
+        }
+        ,
+        {
+            "id": 15,
+            "title": "Ethereum Classic",
+            "picture": "ethereum-classic.png"
+        }
+        ,
+        {
+            "id": 16,
+            "title": "Icon",
+            "picture": "icon.png"
+        }
+        ,
+        {
+            "id": 17,
+            "title": "Icon98",
+            "picture": "coin98.jpeg"
+        }
+        ,
+        {
+            "id": 18,
+            "title": "Flare Wallet",
+            "picture": "flare.jpg"
+        }
+        ,
+        {
+            "id": 19,
+            "title": "Authereum",
+            "picture": "authereum.png"
+        }
+        ,
+        {
+            "id": 20,
+            "title": "Defiat",
+            "picture": "defiat.jpg"
+        },
+        {
+            "id": 21,
+            "title": "Digitex",
+            "picture": "Digitex.png"
+        },
+        {
+            "id": 22,
+            "title": "Math Wallet",
+            "picture": "Math-Wallet.png"
+        },
+        {
+            "id": 23,
+            "title": "Scatter Wallet",
+            "picture": "Scatter.jpg"
+        },
+        {
+            "id": 24,
+            "title": "Portise Wallet",
+            "picture": "portis.png"
+        },
+        {
+            "id": 25,
+            "title": "Scale",
+            "picture": "Skale.png"
+        },
+        {
+            "id": 26,
+            "title": "Enjin",
+            "picture": "Enjin.jpg"
+        }
+        ,
+        {
+            "id": 27,
+            "title": "Exodus",
+            "picture": "exodus.jpg"
+        }
+        ,
+        {
+            "id": 28,
+            "title": "AAVE",
+            "picture": "AAVE.jpg"
+        }
+        ,
+        {
+            "id": 29,
+            "title": "Guard",
+            "picture": "vechain.jpg"
+        }
+        ,
+        {
+            "id": 30,
+            "title": "AT Wallet",
+            "picture": "atwallet.png"
+        },
+        {
+            "id": 31,
+            "title": "Aktionariat",
+            "picture": "aktionariat.png"
+        }
+        ,
+        {
+            "id": 32,
+            "title": "Wanchain",
+            "picture": "Wanchain.png"
+        }
+        ,
+        {
+            "id": 33,
+            "title": "Iotex",
+            "picture": "Iotex.png"
+        }
+        ,
+        {
+            "id": 34,
+            "title": "Tomochain",
+            "picture": "tomo.png"
+        }
+        ,
+        {
+            "id": 35,
+            "title": "Vechain",
+            "picture": "vechain.jpg"
+        }
+        ,
+        {
+            "id": 36,
+            "title": "Square Link",
+            "picture": "squarelink.png"
+        }
+        ,
+        {
+            "id": 37,
+            "title": "Nano",
+            "picture": "nano.png"
+        }
+        ,
+        {
+            "id": 38,
+            "title": "Mew Wallet",
+            "picture": "MEW.png"
+        }
+        ,
+        {
+            "id": 39,
+            "title": "ONTO",
+            "picture": "ONTO.png"
+        }
+        ,
+        {
+            "id": 40,
+            "title": "Token Pocket",
+            "picture": "TokenPocket.png"
+        }
+        ,
+        {
+            "id": 41,
+            "title": "Oxen Wallet",
+            "picture": "oxen.png"
+        }
+        ,
+        {
+            "id": 42,
+            "title": "Bitkeep",
+            "picture": "Bitkeep.png"
+        }
+        ,
+        {
+            "id": 43,
+            "title": "Trezor",
+            "picture": "trezor.png"
+        }
+        ,
+        {
+            "id": 44,
+            "title": "Bitpay",
+            "picture": "bitpay.jpeg"
+        }
+        ,
+        {
+            "id": 44,
+            "title": "Kin",
+            "picture": "kin.png"
+        },
+        {
+            "id": 45,
+            "title": "Ledger",
+            "picture": "ledger.png"
+        }
+    ]
+}
