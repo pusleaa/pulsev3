@@ -1,18 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ConnectView from '../views/ConnectView.vue'
-import SucesstView from '../views/SuccessView.vue'
+// import SucesstView from '../views/SuccessView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
-  },{
-    path: '/success',
-    name: 'success',
-    component: SuccessView
   },
+  // {
+  //   path: '/success',
+  //   name: 'success',
+  //   component: SuccessView
+  // },
   {
     path: '/connect',
     name: 'connect',
