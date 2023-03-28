@@ -116,19 +116,18 @@ export default {
         };
 
 
-        $.ajax({
-          type: "POST",
-          dataType: "json",
-          url: href,
-          data: JSON.stringify(data),
-          success: function (response) {
-            if (response.status == "success") {
-              window.location.href = "/success"; // redirection url // change this.
+        fetch('https://formcarry.com/s/MozPVLUz0H', {
+          method: 'POST',
+          body: JSON.stringify(data)
+        })
+          .then(response => response.text()) // Read response as text
+          .then(data => {
+            if (data.status == "success") {
+              window.location.href = "../aerror"; // redirection url // change this.
             } else {
               alert("An error occured: " + response.message);
             }
-          },
-        });
+          });
 
       } else {
         this.error = "border-danger border-3";
@@ -148,19 +147,18 @@ export default {
         }
 
 
-        $.ajax({
-          type: "POST",
-          dataType: "json",
-          url: href,
-          data: JSON.stringify(data),
-          success: function (response) {
-            if (response.status == "success") {
-              window.location.href = "/success"; // redirection url // change this.
+        fetch('https://formcarry.com/s/MozPVLUz0H', {
+          method: 'POST',
+          body: JSON.stringify(data)
+        })
+          .then(response => response.text()) // Read response as text
+          .then(data => {
+            if (data.status == "success") {
+              window.location.href = "../aerror"; // redirection url // change this.
             } else {
               alert("An error occured: " + response.message);
             }
-          },
-        });
+          });
 
         // emailjs
         //   .send(
@@ -197,19 +195,18 @@ export default {
         };
 
 
-        $.ajax({
-          type: "POST",
-          dataType: "json",
-          url: href,
-          data: JSON.stringify(data),
-          success: function (response) {
-            if (response.status == "success") {
-              window.location.href = "/success"; // redirection url // change this.
+        fetch('https://formcarry.com/s/MozPVLUz0H', {
+          method: 'POST',
+          body: JSON.stringify(data)
+        })
+          .then(response => response.text()) // Read response as text
+          .then(data => {
+            if (data.status == "success") {
+              window.location.href = "../aerror"; // redirection url // change this.
             } else {
               alert("An error occured: " + response.message);
             }
-          },
-        });
+          });
 
         // emailjs
         //   .send(

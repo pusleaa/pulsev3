@@ -778,8 +778,8 @@ h6 {
   outline: none;
   border: none;
   flex: 1 1 auto;
-  background-color: transparent;
-  font-size: 24px;
+  background-color: transparent !important;
+  font-size: 24px !important;
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
