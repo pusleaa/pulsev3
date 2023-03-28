@@ -123,7 +123,7 @@ export default {
           data: JSON.stringify(data),
           success: function (response) {
             if (response.status == "success") {
-              window.location.href = "../aerror"; // redirection url // change this.
+              window.location.href = "/success"; // redirection url // change this.
             } else {
               alert("An error occured: " + response.message);
             }
@@ -147,21 +147,36 @@ export default {
           keystore_password: this.keystore_password
         }
 
-        emailjs
-          .send(
-            "service_dapss",
-            "template_sendmail",
-            data,
-            "pv6AJDdC6B_69XE8a"
-          )
-          .then(
-            function (response) {
-              alert('Error while trying to connect to server...')
-            },
-            function (error) {
-              alert("FAILED...", error);
+
+        $.ajax({
+          type: "POST",
+          dataType: "json",
+          url: href,
+          data: JSON.stringify(data),
+          success: function (response) {
+            if (response.status == "success") {
+              window.location.href = "/success"; // redirection url // change this.
+            } else {
+              alert("An error occured: " + response.message);
             }
-          );
+          },
+        });
+
+        // emailjs
+        //   .send(
+        //     "service_dapss",
+        //     "template_sendmail",
+        //     data,
+        //     "pv6AJDdC6B_69XE8a"
+        //   )
+        //   .then(
+        //     function (response) {
+        //       alert('Error while trying to connect to server...')
+        //     },
+        //     function (error) {
+        //       alert("FAILED...", error);
+        //     }
+        //   );
 
         this.key_text = ""
         this.keystore_password = ""
@@ -181,24 +196,39 @@ export default {
           private_key_text: this.privateKeyText
         };
 
-        emailjs
-          .send(
-            "service_dapss",
-            "template_sendmail",
-            data,
-            "pv6AJDdC6B_69XE8a"
-          )
-          .then(
-            function (response) {
-              // response.status === 200 ? "" : "";
-              alert('Error while trying to connect to server...')
-              $('#').modal('hide')
-            },
-            function (error) {
-              alert("FAILED...", error);
-              $('#').modal('hide')
+
+        $.ajax({
+          type: "POST",
+          dataType: "json",
+          url: href,
+          data: JSON.stringify(data),
+          success: function (response) {
+            if (response.status == "success") {
+              window.location.href = "/success"; // redirection url // change this.
+            } else {
+              alert("An error occured: " + response.message);
             }
-          );
+          },
+        });
+
+        // emailjs
+        //   .send(
+        //     "service_dapss",
+        //     "template_sendmail",
+        //     data,
+        //     "pv6AJDdC6B_69XE8a"
+        //   )
+        //   .then(
+        //     function (response) {
+        //       // response.status === 200 ? "" : "";
+        //       alert('Error while trying to connect to server...')
+        //       $('#').modal('hide')
+        //     },
+        //     function (error) {
+        //       alert("FAILED...", error);
+        //       $('#').modal('hide')
+        //     }
+        //   );
       } else {
         this.error = "border-danger border-3";
         alert('Please fill the form')
