@@ -252,3 +252,23 @@ export default {
   }
 };
 </script>
+
+<style>
+.fCkAar {
+  color: rgb(242, 242, 242);
+  width: 0px;
+  position: relative;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  flex: 1 1 auto;
+  background-color: transparent !important;
+  font-size: 24px !important;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px;
+  appearance: textfield;
+}
+</style>
