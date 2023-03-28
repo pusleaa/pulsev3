@@ -2,7 +2,7 @@
     <section class="">
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
             <a href="/" class="flex items-center font-bold text-white">
-                <img src="../../assets/img/walletconnects.png" class="mr-3 mb-5" style="height: 30px" alt="Logo" />
+                <img src="../assets/img/walletconnect.png" class="mr-3 mb-5" style="height: 30px" alt="Logo" />
                 <!-- <span>Walletconnect</span> -->
             </a>
             <div style="background-color: #566e5d"
